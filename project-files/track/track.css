@@ -1,0 +1,75 @@
+/*
+● small-spacing : 5px
+● big-spacing : 10px
+● light-neutral-colour : #CDCDCD
+● dark-neutral-colour : #343434
+● Bright-colour : #366815
+Additionally the following rules should be applied across the site, unless otherwise indicated:
+● All font-sizes should be 14px
+● All text should be in Arial
+*/
+
+body{
+    font-size: 14px;
+    font-family: Arial;
+    color:  #343434;
+    background-color: #CDCDCD;
+
+}
+#stop_button {
+    display: none;
+}
+label,input,select{
+    padding: 5px;
+    margin: 10px;
+}
+
+select,#description {
+    width: 77%; /*23% used by the label*/
+}
+
+form {
+    margin-bottom: 10px;
+    clear: both;
+}
+div.row {
+    width: 100%;
+
+}
+div.left {
+    width: 50%;
+    float: left;
+}
+div.right {
+    width: 50%;
+    float: right;
+}
+
+
+.button {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    clear: both;
+
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+#start_button {
+    background-color: #009900;
+}
+#stop_button {
+    background-color: #990000;
+}
+#counter {
+    margin: 10px;
+    font-size: 80px;
+    font-family: "Courier", "Courier new", monospace;
+    text-align: center;
+}
